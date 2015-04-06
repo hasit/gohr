@@ -35,6 +35,6 @@ You can also provide multiple patterns as arguments seperated by spaces
 `-o--o--o--`
 
 ## TODO
-[ ] Make it `go get`able
-[ ] Make it available as a library
-[ ] Add proper doc and examples
+- [ ] Make it `go get`able
+- [ ] Make it available as a library
+- [ ] Add proper doc and examples
