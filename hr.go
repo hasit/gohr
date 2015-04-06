@@ -24,19 +24,10 @@ func drawHr(args []string) {
 		}
 		fmt.Println()
 	} else {
-		// for i := 0; i < len(args); i++ {
-		// 	l := len(args[i])
-		// 	for j := 0; j < int(cols/l); j++ {
-		// 		fmt.Printf("%v", args[i])
-		// 	}
-		// 	fmt.Println()
-		// }
 		for _, arg := range args {
 			l := len(arg)
 			for i := 0; i < cols/l; i++ {
-				//for j := 0; j < len(arg); j++ {
 				fmt.Printf(arg)
-				//}
 			}
 			fmt.Printf("%v\n", arg[:cols%l])
 		}
