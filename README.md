@@ -6,10 +6,10 @@ Unclutter your terminal using this small, but helpful program. Put the `<hr />` 
 ![hr.go](assests/gohr.png)
 
 ## Setup
-Clone the repository
+Clone the repository <br />
 `git clone https://github.com/hasit/gohr`
 
-Install the package (you must have GOPATH set)
+Install the package (you must have GOPATH set) <br />
 `go install`
 
 ## Usage
