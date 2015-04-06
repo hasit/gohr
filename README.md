@@ -1,5 +1,5 @@
 # hr.go
-A port of [LuStr/hr](https://github.com/LuRsT/hr) in Go.
+A port of [LuRst/hr](https://github.com/LuRsT/hr) in Go.
 
 Unclutter your terminal using this small, but helpful program. Put the `<hr />` tag in your terminal and visually seperate parts of text.
 
