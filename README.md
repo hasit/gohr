@@ -21,7 +21,7 @@ With no arguments, the default symbol '#' will fill one row in your terminal
 You can provide your own symbol as a command line argument <br />
 `hr 'o'` <br />
 `oooooooooo` <br />
-This is fill one row in your terminal with symbol '*'
+This is fill one row in your terminal with symbol 'o'
 
 You can also provide multiple patterns as arguments seperated by spaces <br />
 `hr '-' '#' '-'` <br />
