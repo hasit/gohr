@@ -13,17 +13,17 @@ Install the package (you must have GOPATH set)
 `go install`
 
 ## Usage
-Assuming that you have already added GOPATH/bin/ to PATH, simply run the command
-`hr`
-`##########`
+Assuming that you have already added GOPATH/bin/ to PATH, simply run the command <br />
+`hr` <br />
+`##########` <br />
 With no arguments, the default symbol '#' will fill one row in your terminal
 
-You can provide your own symbol as a command line argument
+You can provide your own symbol as a command line argument <br />
 `hr 'o'` <br />
 `oooooooooo` <br />
 This is fill one row in your terminal with symbol '*'
 
-You can also provide multiple patterns as arguments seperated by spaces
+You can also provide multiple patterns as arguments seperated by spaces <br />
 `hr '-' '#' '-'` <br />
 `----------` <br />
 `##########` <br />
