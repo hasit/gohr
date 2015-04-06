@@ -19,21 +19,21 @@ Assuming that you have already added GOPATH/bin/ to PATH, simply run the command
 With no arguments, the default symbol '#' will fill one row in your terminal
 
 You can provide your own symbol as a command line argument
-`hr 'o'` <hr />
-`oooooooooo` <hr />
+`hr 'o'` <br />
+`oooooooooo` <br />
 This is fill one row in your terminal with symbol '*'
 
 You can also provide multiple patterns as arguments seperated by spaces
-`hr '-' '#' '-'` <hr />
-`----------` <hr />
-`##########` <hr />
-`----------` <hr />
-<hr />
-`hr '-o-' '#' '-o-'` <hr />
-`-o--o--o--` <hr />
-`##########` <hr />
-`-o--o--o--` <hr />
-<hr />
+`hr '-' '#' '-'` <br />
+`----------` <br />
+`##########` <br />
+`----------` <br />
+<br />
+`hr '-o-' '#' '-o-'` <br />
+`-o--o--o--` <br />
+`##########` <br />
+`-o--o--o--` <br />
+<br />
 ## TODO
 - [ ] Make it `go get`able
 - [ ] Make it available as a library
