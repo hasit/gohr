@@ -9,27 +9,35 @@ Unclutter your terminal using this small, but helpful program. Put the `<hr />` 
 	go get github.com/hasit/gohr/hr
 
 ## Usage
-Assuming that you have already added GOPATH/bin/ to PATH, simply run the command <br />
-`hr` <br />
-`##########` <br />
-With no arguments, the default symbol '#' will fill one row in your terminal
+Assuming that you have already added `$GOPATH/bin/` to `$PATH`, simply run the command `hr`. With no arguments, the default symbol '#' will fill one row in your terminal.
 
-You can provide your own symbol as a command line argument <br />
-`hr 'o'` <br />
-`oooooooooo` <br />
-This is fill one row in your terminal with symbol 'o'
+```
+$ hr
+##########
+```
 
-You can also provide multiple patterns as arguments seperated by spaces <br />
-`hr '-' '#' '-'` <br />
-`----------` <br />
-`##########` <br />
-`----------` <br />
-<br />
-`hr '-o-' '#' '-o-'` <br />
-`-o--o--o--` <br />
-`##########` <br />
-`-o--o--o--` <br />
-<br />
+You can provide a symbol of your choice of symbol as a command line argument
+
+```
+$ hr 'o'
+oooooooooo
+```
+
+You can also provide multiple patterns as arguments seperated by spaces
+
+```
+$ hr '-' '#' '-'
+----------
+##########
+----------
+```
+```
+$ hr '-o-' '#' '-o-'
+-o--o--o--
+##########
+-o--o--o--
+```
+
 ## TODO
 - [x] Make it `go get`able
 - [ ] Make it available as a library
