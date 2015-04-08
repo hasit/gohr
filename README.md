@@ -6,11 +6,7 @@ Unclutter your terminal using this small, but helpful program. Put the `<hr />` 
 ![hr.go](assests/gohr.png)
 
 ## Setup
-Clone the repository <br />
-`git clone https://github.com/hasit/gohr`
-
-Install the package (you must have GOPATH set) <br />
-`go install`
+	go get github.com/hasit/gohr/hr
 
 ## Usage
 Assuming that you have already added GOPATH/bin/ to PATH, simply run the command <br />
@@ -35,6 +31,6 @@ You can also provide multiple patterns as arguments seperated by spaces <br />
 `-o--o--o--` <br />
 <br />
 ## TODO
-- [ ] Make it `go get`able
+- [x] Make it `go get`able
 - [ ] Make it available as a library
 - [ ] Add proper doc and examples
