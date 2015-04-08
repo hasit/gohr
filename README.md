@@ -1,6 +1,8 @@
 # gohr
 A port of [LuRst/hr](https://github.com/LuRsT/hr) in Go.
 
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/hasit/gohr/master/LICENSE.txt)
+
 ## About
 Unclutter your terminal using this small, but helpful program. Put the `<hr />` tag in your terminal and visually seperate parts of text.
 
