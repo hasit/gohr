@@ -1,4 +1,4 @@
-# hr.go
+# gohr
 A port of [LuRst/hr](https://github.com/LuRsT/hr) in Go.
 
 ## About
