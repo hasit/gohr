@@ -41,4 +41,5 @@ $ hr '-o-' '#' '-o-'
 ## TODO
 - [x] Make it `go get`able
 - [ ] Make it available as a library
+- [ ] Write `hr.go` using that library 
 - [ ] Add proper doc and examples
