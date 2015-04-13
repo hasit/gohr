@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Gohr by hasit</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Gohr</h1>
+        <p>&lt;hr /&gt; for your terminal in Go</p>
+
+        <p class="view"><a href="https://github.com/hasit/gohr">View the Project on GitHub <small>hasit/gohr</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/hasit/gohr/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/hasit/gohr/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/hasit/gohr">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a id="gohr" class="anchor" href="#gohr" aria-hidden="true"><span class="octicon octicon-link"></span></a>gohr</h1>
+
+<p>A port of <a href="https://github.com/LuRsT/hr">LuRst/hr</a> in Go.</p>
+
+<p><a href="https://raw.githubusercontent.com/hasit/gohr/master/LICENSE.txt"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="GitHub license"></a></p>
+
+<h2>
+<a id="about" class="anchor" href="#about" aria-hidden="true"><span class="octicon octicon-link"></span></a>About</h2>
+
+<p>Unclutter your terminal using this small, but helpful program. Put the <code>&lt;hr /&gt;</code> tag in your terminal and visually seperate parts of text.</p>
+
+<p><img src="assests/gohr.png" alt="hr.go"></p>
+
+<h2>
+<a id="setup" class="anchor" href="#setup" aria-hidden="true"><span class="octicon octicon-link"></span></a>Setup</h2>
+
+<pre><code>go get github.com/hasit/gohr/hr
+</code></pre>
+
+<h2>
+<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage</h2>
+
+<p>Assuming that you have already added <code>$GOPATH/bin/</code> to <code>$PATH</code>, simply run the command <code>hr</code>. With no arguments, the default symbol '#' will fill one row in your terminal.</p>
+
+<pre><code>$ hr
+##########
+</code></pre>
+
+<p>You can provide a symbol of your choice of symbol as a command line argument</p>
+
+<pre><code>$ hr 'o'
+oooooooooo
+</code></pre>
+
+<p>You can also provide multiple patterns as arguments seperated by spaces</p>
+
+<pre><code>$ hr '-' '#' '-'
+----------
+##########
+----------
+</code></pre>
+
+<pre><code>$ hr '-o-' '#' '-o-'
+-o--o--o--
+##########
+-o--o--o--
+</code></pre>
+
+<h2>
+<a id="todo" class="anchor" href="#todo" aria-hidden="true"><span class="octicon octicon-link"></span></a>TODO</h2>
+
+<ul>
+<li>[x] Make it <code>go get</code>able</li>
+<li>[ ] Make it available as a library</li>
+<li>[ ] Write <code>hr.go</code> using that library </li>
+<li>[ ] Add proper doc and examples</li>
+</ul>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/hasit">hasit</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
