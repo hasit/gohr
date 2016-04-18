@@ -1,5 +1,4 @@
-//make it available as a command
-package main
+package gohr
 
 import (
 	"fmt"
@@ -17,8 +16,8 @@ func getCols() int {
 	return c
 }
 
-//fill a row with '#' by default (if no arguments are provided) or take command line arguments and print each pattern on a new line
-func drawHr(args []string) {
+// DrawHr fills a row with '#' by default (if no arguments are provided) or take command line arguments and print each pattern on a new line
+func DrawHr(args []string) {
 	cols := getCols()
 
 	if len(args) == 0 {
@@ -32,17 +31,8 @@ func drawHr(args []string) {
 			for i := 0; i < cols/l; i++ {
 				fmt.Printf(arg)
 			}
-			fmt.Printf("%v\n", arg[:cols%l]) //this fills ups the remaining columns in the row with part of the pattern
+			// Fill ups the remaining columns in the row with part of the pattern
+			fmt.Printf("%v\n", arg[:cols%l])
 		}
 	}
-}
-
-//get command line arguments from 1 onwards (exclude the file name)
-func getArgs() {
-	args := os.Args[1:]
-	drawHr(args)
-}
-
-func main() {
-	getArgs()
 }
