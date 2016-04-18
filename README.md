@@ -1,6 +1,6 @@
 # gohr
 
-A port of [LuRst/hr](https://github.com/LuRsT/hr) in Go.
+A port of [LuRst/hr](https://github.com/LuRsT/hr) in go as a library and standalone application.
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/hasit/gohr/master/LICENSE.txt)
 
