@@ -15,7 +15,7 @@ Unclutter your terminal using this small, but helpful program. Put the `<hr />` 
 To start using gohr, run `go get`:
 
 ```terminal
-$ go get github.com/hasit/gohr/hr
+$ go get github.com/hasit/gohr/cmd/hr
 ```
 
 This will download and install `gohr` library and `hr` executable.
