@@ -1,16 +1,9 @@
 package main
 
-import (
-	"os"
-
-	"github.com/hasit/gohr"
-)
-
-func getArgs() []string {
-	return os.Args[1:]
-}
+import "github.com/hasit/gohr"
 
 func main() {
-	args := getArgs()
-	gohr.DrawHr(args)
+	gohr.DrawHr("-0-")
+	gohr.DrawHr("-", "#")
+	gohr.DrawHr(".", "\\", "/")
 }
