@@ -17,7 +17,7 @@ func getCols() int {
 }
 
 // DrawHr fills a row with '#' by default (if no arguments are provided) or take command line arguments and print each pattern on a new line
-func DrawHr(args []string) {
+func DrawHr(args ...string) {
 	cols := getCols()
 
 	if len(args) == 0 {
