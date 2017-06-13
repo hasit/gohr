@@ -1,30 +1,32 @@
 # gohr
 
-A port of [LuRst/hr](https://github.com/LuRsT/hr) in go as a library and standalone application.
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/hasit/gohr/master/LICENSE.txt) [![Go Report Card](https://goreportcard.com/badge/github.com/hasit/gohr)](https://goreportcard.com/report/github.com/hasit/gohr)
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/hasit/gohr/master/LICENSE.txt)
+Unclutter your terminal using this small, but helpful Go package. `gohr` puts horizontal rulers in your terminal so that you can visually seperate parts of text.
 
-## About
+`hasit/gohr` comes with:
+1. `gohr` - An importable package to use in your own Go programs.
+2. `hr` - A CLI tool.
 
-Unclutter your terminal using this small, but helpful program. Put the `<hr />` tag in your terminal and visually seperate parts of text.
+`hasit/gohr` is a port of [LuRst/hr](https://github.com/LuRsT/hr).
 
-![hr.go](assests/gohr.png)
+[![asciicast of gohr](https://asciinema.org/a/124619.png)](https://asciinema.org/a/124619)
 
-## Installing
+## Installation
 
-To start using gohr, run `go get`:
-
-```terminal
-$ go get github.com/hasit/gohr/cmd/hr
+```
+$ go get -u github.com/hasit/gohr/cmd/hr
 ```
 
-This will download and install `gohr` library and `hr` executable.
+This will download and install `gohr` package and `hr` executable.
 
 ## Usage
 
-`gohr` can be used as a library as well as a standalone application.
+`gohr` can be used as a package and as a standalone CLI tool.
 
-To use it as a library, import `gohr` in your program and call `DrawHr` function:
+### As a package
+
+To use it in your own Go program, import `gohr` and call `gohr.Draw(args ...string)` function.
 
 ```go
 package main
@@ -38,23 +40,23 @@ func main() {
 }
 ```
 
-You can find this example in `cmd/hr/main.go` file.
+### As a CLI tool
 
-To use it as a standalone application, run `hr` from your terminal:
+To use it as a standalone CLI tool, run `hr` from your terminal.
 
 ```
 $ hr
 ##########
 ```
 
-You can provide a symbol of your choice of symbol as a command line argument
+You can provide a symbol of your choice as a command line argument.
 
 ```
 $ hr 'o'
 oooooooooo
 ```
 
-You can also provide multiple patterns as arguments seperated by spaces
+You can also provide multiple patterns as arguments seperated by spaces.
 
 ```
 $ hr '-' '#' '-'
@@ -70,10 +72,6 @@ $ hr '-o-' '#' '-o-'
 -o--o--o--
 ```
 
-## TODO
+## Contribution
 
-- [x] Make it `go get`able
-- [x] Make it available as a library
-- [x] Write `hr.go` using that library
-- [ ] Add proper doc
-- [x] Add examples
+Feel free to ask questions, post issues and open pull requests.
