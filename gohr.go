@@ -21,17 +21,17 @@ func getWidth() (int, error) {
 func drawPatterns(width int, patterns []string, wr io.Writer) {
 	if len(patterns) == 0 {
 		for i := 0; i < width; i++ {
-			fmt.Printf("#")
+			fmt.Fprintf(wr, "#")
 		}
-		fmt.Printf("\n")
+		fmt.Fprintf(wr, "\n")
 	} else {
 		for _, pattern := range patterns {
 			patternLength := len(pattern)
 			for i := 0; i < width/patternLength; i++ {
-				fmt.Printf(pattern)
+				fmt.Fprintf(wr, pattern)
 			}
 			// Fills up the remaining columns in the row with part of the pattern
-			fmt.Printf("%s\n", pattern[:width%patternLength])
+			fmt.Fprintf(wr, "%s\n", pattern[:width%patternLength])
 		}
 	}
 }
