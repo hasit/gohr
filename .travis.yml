@@ -6,4 +6,6 @@ go:
 - release
 - tip
 before_install:
+- go get -u golang.org/x/crypto/ssh/terminal
+script:
 - go test -v .
