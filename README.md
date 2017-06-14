@@ -1,6 +1,6 @@
 # gohr
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/hasit/gohr)](https://goreportcard.com/report/github.com/hasit/gohr)
+[![Go Report Card](https://goreportcard.com/badge/github.com/hasit/gohr)](https://goreportcard.com/report/github.com/hasit/gohr) [![Build Status](https://travis-ci.org/hasit/gohr.svg?branch=master)](https://travis-ci.org/hasit/gohr)
 
 Unclutter your terminal using this small, but helpful Go package. `gohr` puts horizontal rulers in your terminal so that you can visually seperate parts of text.
 
